@@ -1,0 +1,118 @@
+:root {
+    --dk-blue: #363151;
+    --lt-blue: #e1caf7;
+    --dk-grey: #191919;
+    --lt-grey: #e0e3e7;
+    --body-text: 'Open Sans', sans-serif;
+    --head-text: 'Playfair Display', serif;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.5;
+}
+
+body {
+    font-size: 1.6rem;
+    color: var(--dk-grey);
+    font-family: var(--body-text);
+}
+
+h2 {
+    font-family: var(--head-text);
+    font-weight: 400;
+    font-size: 3.6rem;
+    padding: 3rem;
+}
+
+p {
+    padding-left: 3rem;
+    padding-bottom: 5rem;
+}
+
+img {
+    border-radius: 2rem;
+}
+
+.inner-container div {
+    padding: 0 3rem;
+}
+
+
+/* banner style */
+.banner {
+    background-image: url(../img/larkspur-banner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem;
+}
+
+.banner h1 {
+    font-size: 4.8rem;
+    text-align: center;
+    color: #ffffff;
+    font-family: var(--head-text);
+    padding: 3rem;
+}
+
+/* about style */
+.about {
+    background: linear-gradient(to bottom, hsl(285, 7%, 78%), #fff);
+    padding: 3rem;
+}
+
+/* direction styles */
+.direction {
+    background-color: #0c175c;
+    color: white;
+    padding: 6rem;
+}
+
+/* leisure style */
+
+.leisure {
+    padding: 6rem;
+}
+
+/* library styles */
+.library {
+    background: var(--lt-blue);
+    padding: 6rem;
+}
+
+/* footer styles */
+footer {
+    background: var(--dk-grey);
+    padding: 5rem;
+}
+
+footer h3 {
+    color: var(--lt-grey);
+}
+
+footer a {
+    color: var(--lt-grey);
+}
+
+@media screen and (min-width: 1000px) {
+
+    .inner-container {
+        margin: auto;
+        max-width: 120rem;
+    }
+
+    .library .inner-container, .direction .inner-container, .leisure .inner-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .leisure .inner-container {
+        flex-direction: row-reverse;
+    }
+
+    img {
+        max-width: 40%;
+    }
+
+}
