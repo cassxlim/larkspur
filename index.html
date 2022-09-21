@@ -72,7 +72,29 @@
 	<footer>
 		<div class="inner-container">
 			<h3>Connect with Larkspur</h3>
-			<a href="mailto:larkspuralberta@gmail.com">Email: larkspuralberta@gmail.com</a>  
+			<a href="mailto:larkspuralberta@gmail.com">Email: larkspuralberta@gmail.com</a> 
+			<a href="privacy.txt">Privacy Policy</a> 
+			<a href="license.txt">License</a>    
 		</div>
 	</footer>
+
+	<!-- Code for the Cookie Compliance popover window -->
+	<div id="cookiePopup" class="hide">
+		<p><strong>Cookie Notice:</strong> We use cookies to offer you a better browsing experience, analyze site traffic, personalize content, and gather information to improve your experience.  Read about how we use cookies and how you can control them by <a href="privacy.txt">clicking here</a>.</p>
+		<button id="acceptCookie">Close</button>
+	</div>
+	
+	<script>
+		// Script to open and close sidebar
+		function w3_open() {
+			  document.getElementById("mySidebar").style.display = "block";
+			}
+	 
+		function w3_close() {
+			  document.getElementById("mySidebar").style.display = "none";
+			}
+		</script>
+	
+		<!-- Javascript to load cookies modal window -->
+		<script src="js/cookies.js"></script>
 </body>

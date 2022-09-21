@@ -88,11 +88,63 @@ footer {
 
 footer h3 {
     color: var(--lt-grey);
+    padding-bottom: 2rem;
 }
 
 footer a {
     color: var(--lt-grey);
+    display: block;
+    font-size: 1.6rem;
 }
+
+/* -- Code for the Cookie Compliance popover window -- */
+
+#cookiePopup {
+  background-color: #ffffff;
+  position: absolute;
+  left: 5%;
+  bottom: 0;
+  font-size: 14px;
+  width: 90%;
+  box-shadow: 0 0 2em rgba(5, 0, 31, 0.15);
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+  line-height: 1.8em;
+  margin: 0 auto;
+  padding: 2em 1.4em;
+  border-radius: 6px;
+  transition: all 0.5s ease-in-out;
+}
+
+#cookiePopup p {
+  text-align: center;
+  margin: 1.4em 0;
+}
+#cookiePopup button {
+  background-color: #6859fe;
+  border: none;
+  color: #ffffff;
+  font-size: 1.2em;
+  padding: 1em 1.4em;
+  display: block;
+  position: relative;
+  margin: auto;
+  border-radius: 5px;
+}
+#cookiePopup a {
+  color: #6859fe;
+}
+
+.hide {
+  visibility: hidden;
+  
+}
+.show {
+  visibility: visible;
+ 
+}
+
+/* -- End of Code for the Cookie Compliance popover window -- */
 
 @media screen and (min-width: 1000px) {
 
