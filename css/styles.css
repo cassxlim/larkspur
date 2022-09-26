@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    font-size: 2.1rem;
+    font-size: 1.8rem;
     color: var(--dk-grey);
     font-family: var(--body-text);
 }
@@ -26,17 +26,17 @@ h2 {
 }
 
 p {
-    padding-left: 3rem;
-    padding-bottom: 5rem;
+    padding: 0 3rem 3rem;
 }
 
 img {
+    margin-top: 3rem;
     border-radius: 2rem;
 }
 
-.inner-container div {
+/* .inner-container div {
     padding: 0 3rem;
-}
+} */
 
 
 /* banner style */
@@ -65,25 +65,25 @@ img {
 .direction {
     background-color: #0c175c;
     color: white;
-    padding: 6rem;
+    padding: 2.4rem;
 }
 
 /* leisure style */
 
 .leisure {
-    padding: 6rem;
+    padding: 2.4rem;
 }
 
 /* library styles */
 .library {
     background: var(--lt-blue);
-    padding: 6rem;
+    padding: 2.4rem;
 }
 
 /* footer styles */
 footer {
     background: var(--dk-grey);
-    padding: 5rem;
+    padding: 5.4rem;
 }
 
 footer h3 {
@@ -166,6 +166,7 @@ footer a {
 
     img {
         max-width: 40%;
+        margin-bottom: 3rem;
     }
 
 }
