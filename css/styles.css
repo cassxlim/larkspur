@@ -95,6 +95,7 @@ footer a {
     color: var(--lt-grey);
     display: block;
     font-size: 1.6rem;
+    padding-top: 1.6rem;
 }
 
 /* -- Code for the Cookie Compliance popover window -- */
