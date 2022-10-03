@@ -196,4 +196,9 @@ footer a:nth-child(5) {
         margin-bottom: 3rem;
     }
 
+    .social img {
+        max-width: 100%;
+        margin-bottom: 0;
+    }
+
 }
