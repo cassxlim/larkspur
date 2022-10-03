@@ -10,7 +10,7 @@ Larkspur Alberta
 Owner contact email: larkspuralberta@gmail.com
 
 Types of Data collected
-Among the types of Personal Data that this Application collects, by itself or through third parties, there are: Trackers; Usage Data.
+Among the types of Personal Data that this Application collects, by itself or through third parties, there are: Trackers; Usage Data; email address.
 
 Complete details on each type of Personal Data collected are provided in the dedicated sections of this privacy policy or by specific explanation texts displayed prior to the Data collection.
 Personal Data may be freely provided by the User, or, in case of Usage Data, collected automatically when using this Application.
@@ -56,12 +56,35 @@ The Owner may be allowed to retain Personal Data for a longer period whenever th
 Once the retention period expires, Personal Data shall be deleted. Therefore, the right of access, the right to erasure, the right to rectification and the right to data portability cannot be enforced after expiration of the retention period.
 
 The purposes of processing
-The Data concerning the User is collected to allow the Owner to provide its Service, comply with its legal obligations, respond to enforcement requests, protect its rights and interests (or those of its Users or third parties), detect any malicious or fraudulent activity, as well as the following: Analytics and Displaying content from external platforms.
+The Data concerning the User is collected to allow the Owner to provide its Service, comply with its legal obligations, respond to enforcement requests, protect its rights and interests (or those of its Users or third parties), detect any malicious or fraudulent activity, as well as the following: Analytics, Access to third-party accounts, Displaying content from external platforms and Contacting the User.
 
 For specific information about the Personal Data used for each purpose, the User may refer to the section “Detailed information on the processing of Personal Data”.
 
+Facebook permissions asked by this Application
+This Application may ask for some Facebook permissions allowing it to perform actions with the User's Facebook account and to retrieve information, including Personal Data, from it. This service allows this Application to connect with the User's account on the Facebook social network, provided by Facebook Inc.
+
+For more information about the following permissions, refer to the Facebook permissions documentation and to the Facebook privacy policy.
+
+The permissions asked are the following:
+
+Basic information
+By default, this includes certain User’s Data such as id, name, picture, gender, and their locale. Certain connections of the User, such as the Friends, are also available. If the User has made more of their Data public, more information will be available.
+
+Insights
+Provides read access to the Insights data for pages, applications, and domains the user owns.
+
 Detailed information on the processing of Personal Data
 Personal Data is collected for the following purposes and using the following services:
+
+Access to third-party accounts
+This type of service allows this Application to access Data from your account on a third-party service and perform actions with it.
+These services are not activated automatically, but require explicit authorization by the User.
+
+Facebook account access (Meta Platforms, Inc.)
+This service allows this Application to connect with the User's account on the Facebook social network, provided by Facebook, Inc.
+Permissions asked: Insights.
+
+Place of processing: United States – Privacy Policy.
 
 Analytics
 The services contained in this section enable the Owner to monitor and analyze web traffic and can be used to keep track of User behavior.
@@ -73,12 +96,17 @@ Personal Data processed: Trackers; Usage Data.
 
 Place of processing: United States – Privacy Policy – Opt Out.
 
+Contacting the User
+Mailing list or newsletter (this Application)
+By registering on the mailing list or for the newsletter, the User’s email address will be added to the contact list of those who may receive email messages containing information of commercial or promotional nature concerning this Application. Your email address might also be added to this list as a result of signing up to this Application or after making a purchase.
+Personal Data processed: email address.
+
 Displaying content from external platforms
 This type of service allows you to view content hosted on external platforms directly from the pages of this Application and interact with them.
 This type of service might still collect web traffic data for the pages where the service is installed, even when Users do not use it.
 
-Google Fonts (Google LLC)
-Google Fonts is a typeface visualization service provided by Google LLC that allows this Application to incorporate content of this kind on its pages.
+Instagram widget (Meta Platforms, Inc.)
+Instagram is an image visualization service provided by Meta Platforms, Inc. that allows this Application to incorporate content of this kind on its pages.
 Personal Data processed: Trackers; Usage Data.
 
 Place of processing: United States – Privacy Policy.
@@ -128,45 +156,7 @@ The Owner reserves the right to make changes to this privacy policy at any time 
 Should the changes affect processing activities performed on the basis of the User’s consent, the Owner shall collect new consent from the User, where required.
 
 Definitions and legal references
-Personal Data (or Data)
-Any information that directly, indirectly, or in connection with other information — including a personal identification number — allows for the identification or identifiability of a natural person.
-
-Usage Data
-Information collected automatically through this Application (or third-party services employed in this Application), which can include: the IP addresses or domain names of the computers utilized by the Users who use this Application, the URI addresses (Uniform Resource Identifier), the time of the request, the method utilized to submit the request to the server, the size of the file received in response, the numerical code indicating the status of the server's answer (successful outcome, error, etc.), the country of origin, the features of the browser and the operating system utilized by the User, the various time details per visit (e.g., the time spent on each page within the Application) and the details about the path followed within the Application with special reference to the sequence of pages visited, and other parameters about the device operating system and/or the User's IT environment.
-
-User
-The individual using this Application who, unless otherwise specified, coincides with the Data Subject.
-
-Data Subject
-The natural person to whom the Personal Data refers.
-
-Data Processor (or Data Supervisor)
-The natural or legal person, public authority, agency or other body which processes Personal Data on behalf of the Controller, as described in this privacy policy.
-
-Data Controller (or Owner)
-The natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of Personal Data, including the security measures concerning the operation and use of this Application. The Data Controller, unless otherwise specified, is the Owner of this Application.
-
-This Application
-The means by which the Personal Data of the User is collected and processed.
-
-Service
-The service provided by this Application as described in the relative terms (if available) and on this site/application.
-
-European Union (or EU)
-Unless otherwise specified, all references made within this document to the European Union include all current member states to the European Union and the European Economic Area.
-
-Cookie
-Cookies are Trackers consisting of small sets of data stored in the User's browser.
-
-Tracker
-Tracker indicates any technology - e.g Cookies, unique identifiers, web beacons, embedded scripts, e-tags and fingerprinting - that enables the tracking of Users, for example by accessing or storing information on the User’s device.
-
-Legal information
-This privacy statement has been prepared based on provisions of multiple legislations, including Art. 13/14 of Regulation (EU) 2016/679 (General Data Protection Regulation).
-
-This privacy policy relates solely to this Application, if not stated otherwise within this document.
-
-Latest update: September 21, 2022
+Latest update: October 03, 2022
 
 iubenda hosts this content and only collects the Personal Data strictly necessary for it to be provided.
 
