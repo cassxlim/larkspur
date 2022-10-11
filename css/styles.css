@@ -34,6 +34,17 @@ img {
     border-radius: 2rem;
 }
 
+.about a > img {
+    border-radius: 0.5rem;
+}
+
+.square-banner a > img {
+    width: 50%;
+    border-radius: 2rem;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+
 /* .inner-container div {
     padding: 0 3rem;
 } */
@@ -191,6 +202,16 @@ footer a:nth-child(5) {
         flex-direction: row-reverse;
     }
 
+    .square-banner {
+        display: flex;
+        align-items: center;
+        margin-top: 4rem;
+    }
+
+    .square-banner > div {
+        width: 70%;
+    }
+
     img {
         max-width: 40%;
         margin-bottom: 3rem;
@@ -199,6 +220,28 @@ footer a:nth-child(5) {
     .social img {
         max-width: 100%;
         margin-bottom: 0;
+    }
+
+    .about img {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .square-banner a > img {
+        width: 250px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer .inner-container {
+        margin-left: 0;
+    }
+
+    footer > img {
+        margin: 5rem;
     }
 
 }
