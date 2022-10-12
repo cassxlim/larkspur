@@ -1,0 +1,44 @@
+                            
+/* TEAM */
+
+                            
+Your title: Cass Lim
+                            
+Site: clim16@nait.ca
+
+            
+
+                            
+Location: Northern Alberta, Canada.
+
+                         
+                 
+                        [...]
+						
+
+							
+/* THANKS */
+
+							
+Name: Cass Lim
+Tools: Smartphone Camera
+
+						
+                 
+                        [...]
+                        
+
+                            
+/* SITE */
+
+                            
+Last update: 2022/10/12
+
+                            
+Standards: HTML5, CSS3, Javascript, JSQN
+
+                            
+Components: Modernizr, jQuery, Analytics, Structured data, search console
+
+                            
+Software: Adobe Illustrator, Photoshop, VS Code, Squoosh, Iubenda, Mailchimp, Wordtracker, MS Word, Notepad, Pexel, 
