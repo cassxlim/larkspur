@@ -25,6 +25,10 @@ h2 {
     padding: 3rem;
 }
 
+h3 {
+    font-family: var(--head-text);
+}
+
 p {
     padding: 0 3rem 3rem;
 }
@@ -76,19 +80,23 @@ img {
 .direction {
     background-color: #0c175c;
     color: white;
-    padding: 2.4rem;
+    padding: 4rem 2.4rem;
 }
 
 /* leisure style */
 
 .leisure {
-    padding: 2.4rem;
+    padding: 4rem 2.4rem;
+}
+
+.flex > div h3 {
+    margin: 3rem;
 }
 
 /* library styles */
 .library {
     background: var(--lt-blue);
-    padding: 2.4rem;
+    padding: 4rem 2.4rem;
 }
 
 /* footer styles */
@@ -192,15 +200,17 @@ footer a:nth-child(5) {
         max-width: 120rem;
     }
 
-    .library .inner-container, .direction .inner-container, .leisure .inner-container {
+    .library .inner-container, .direction .inner-container, .flex > div {
         display: flex;
         align-items: center;
         justify-content: space-around;
     }
 
-    .leisure .inner-container {
-        flex-direction: row-reverse;
+    .flex > div {
+        align-items: flex-start;
+        justify-content: space-between;
     }
+
 
     .square-banner {
         display: flex;
@@ -229,6 +239,10 @@ footer a:nth-child(5) {
 
     .square-banner a > img {
         width: 250px;
+    }
+
+    .flex img {
+        max-width: 50rem;
     }
 
     footer {
