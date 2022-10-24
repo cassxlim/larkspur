@@ -22,7 +22,7 @@ h2 {
     font-family: var(--head-text);
     font-weight: 700;
     font-size: 3.6rem;
-    padding: 3rem;
+    padding: 3rem 2rem;
 }
 
 h3 {
@@ -30,7 +30,7 @@ h3 {
 }
 
 p {
-    padding: 0 3rem 3rem;
+    padding: 0 2rem 3rem;
 }
 
 img {
@@ -89,7 +89,7 @@ img {
 }
 
 .flex > div h3 {
-    margin: 3rem;
+    margin: 3rem 2rem;
     color: var(--dk-blue);
 }
 
@@ -212,7 +212,7 @@ footer a:nth-child(5) {
     }
 
     .direction > div > div, .library > div > div {
-        margin-left: 3rem;
+        padding-left: 5rem;
     }
 
     /* square banner & images */
