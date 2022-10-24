@@ -49,11 +49,6 @@ img {
     margin-bottom: 2rem;
 }
 
-/* .inner-container div {
-    padding: 0 3rem;
-} */
-
-
 /* banner style */
 .banner {
     background-image: url(../img/larkspur-banner.webp);
@@ -78,9 +73,13 @@ img {
 
 /* direction styles */
 .direction {
-    background-color: #0c175c;
-    color: white;
+    background-color: var(--dk-blue);
+    color: rgb(226, 226, 226);
     padding: 4rem 2.4rem;
+}
+
+.direction h2 {
+    color: #fff;
 }
 
 /* leisure style */
@@ -91,6 +90,11 @@ img {
 
 .flex > div h3 {
     margin: 3rem;
+    color: var(--dk-blue);
+}
+
+.leisure img {
+    margin-bottom: 5rem;
 }
 
 /* library styles */
@@ -106,7 +110,7 @@ footer {
 }
 
 footer h3 {
-    color: var(--lt-grey);
+    color: #fff;
     padding-bottom: 2rem;
 }
 
@@ -204,13 +208,14 @@ footer a:nth-child(5) {
         display: flex;
         align-items: center;
         justify-content: space-around;
+        padding-left: 3rem;
     }
 
-    .flex > div {
-        align-items: flex-start;
-        justify-content: space-between;
+    .direction > div > div, .library > div > div {
+        margin-left: 3rem;
     }
 
+    /* square banner & images */
 
     .square-banner {
         display: flex;
@@ -223,13 +228,8 @@ footer a:nth-child(5) {
     }
 
     img {
-        max-width: 40%;
+        max-width: 45%;
         margin-bottom: 3rem;
-    }
-
-    .social img {
-        max-width: 100%;
-        margin-bottom: 0;
     }
 
     .about img {
@@ -241,21 +241,46 @@ footer a:nth-child(5) {
         width: 250px;
     }
 
-    .flex img {
-        max-width: 50rem;
+    /* leisure */
+
+    .flex > div {
+        align-items: flex-start;
+        justify-content: space-between;
     }
 
-    footer {
+    .flex div > div {
+        max-width: 70rem;
+        padding: 0 3rem 0 2rem;
+    }
+
+    .flex > div h3 {
+        margin: 0 0 3rem 0.5rem;
+    }
+
+    .flex p {
+        padding: 0 3rem 3rem 0.5rem;
+        width: 50rem;
+    }
+
+    .flex img {
+        max-width: 80%;
+        max-height: 40rem;
+    }
+
+    /* footer */
+
+    footer > div {
         display: flex;
         justify-content: space-between;
     }
 
-    footer .inner-container {
-        margin-left: 0;
+    .social img {
+        max-width: 100%;
+        margin-bottom: 0;
     }
 
-    footer > img {
-        margin: 5rem;
+    footer > div > div:nth-child(2) > img {
+        max-width: 100%;
     }
 
 }
