@@ -129,6 +129,7 @@ img {
 .gallery > div > div {
     display: flex;
     overflow: scroll;
+    overflow-x: scroll;
 }
 
 .gallery > div > div img {
