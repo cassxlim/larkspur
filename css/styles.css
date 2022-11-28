@@ -103,6 +103,38 @@ img {
     padding: 4rem 2.4rem;
 }
 
+/* beach style */
+.beach {
+    padding: 4rem 2.4rem;
+}
+
+.beach h2 {
+    color: #363151;
+}
+
+.beach img {
+    margin-bottom: 6rem;
+}
+
+/* gallery style */
+.gallery {
+    padding: 4rem 2.4rem;
+    background: var(--dk-blue);
+}
+
+.gallery h2 {
+    color: #fff;
+}
+
+.gallery > div > div {
+    display: flex;
+    overflow: scroll;
+}
+
+.gallery > div > div img {
+    margin-right: 4rem;
+}
+
 /* footer styles */
 footer {
     background: var(--dk-grey);
@@ -265,6 +297,26 @@ footer a:nth-child(5) {
     .flex img {
         max-width: 80%;
         max-height: 40rem;
+    }
+
+    /* beach */
+    .beach > div > div {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+
+    .beach > div > div > div:nth-child(1) {
+        width: 50%;
+        margin-right: 3rem;
+    }
+
+    .beach img {
+        max-width: 100%;
+    }
+
+    .gallery img {
+        max-width: 30%;
     }
 
     /* footer */
